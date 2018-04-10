@@ -16,6 +16,7 @@ homepage := Some(url("https://github.com/marcuslonnberg/sbt-docker"))
 scmInfo := Some(ScmInfo(url("https://github.com/marcuslonnberg/sbt-docker"), "scm:git:git://github.com:marcuslonnberg/sbt-docker.git"))
 
 publishMavenStyle := true
+
 publishTo := {
   val nexus = "https://oss.sonatype.org/"
   if (isSnapshot.value)
