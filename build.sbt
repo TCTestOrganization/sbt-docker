@@ -27,7 +27,6 @@ publishTo := {
   else
     Some("releases" at nexus + "service/local/staging/deploy/maven2")
 }
-
 pomIncludeRepository := { _ => false}
 
 pomExtra := (
