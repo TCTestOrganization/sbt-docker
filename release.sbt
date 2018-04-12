@@ -9,9 +9,6 @@ releaseProcess := Seq[ReleaseStep](
   inquireVersions,
   runClean,
   runTest,
-  
-  releaseStepInputTask(scripted),
-  
   setReleaseVersion,
   commitReleaseVersion,
   tagRelease,
